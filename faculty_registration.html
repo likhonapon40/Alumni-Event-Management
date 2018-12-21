@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="faculty_registration.css">
+</head>
+<body>
+<header> 
+
+<div class="nav">
+<a href="home.html">
+<img src="logo1.jpg"  class="logo">  
+</a>
+<ul class="menu">
+<li> <a href="home.html">HOME</a></li> 
+<li> <a href="faculty_option.html">BACK</a></li> 
+<li> <a href="faculty_login.php">LOGIN</a></li> 
+</ul>
+
+
+<br>
+
+
+
+<div id="nav">
+Teacher Information Form <br/>
+
+<form method="post" action="faculty_insert.php" >
+<input type="text" placeholder="  First Name" name="fname" required="required">
+<input type="text" placeholder="  Last Name" name="lname" required="required"> <br/>
+<input type="text" placeholder="  Initial" name="initial" required="required">
+<input type="text" placeholder="  Email" name="ename" required="required">
+<input type="number" placeholder="  Mobile No" name="mob" required="required"> <br/>
+<input type="text" placeholder="  Meeting Time" name="meet" required="required"> 
+<input type="text" placeholder="  Off Day" name="offday" required="required"> <br/>
+<input type="text" placeholder=" username" name="username" required="required"> 
+<input type="password" placeholder=" Password" name="pass" required="required"> </br>
+
+
+<input type="radio" value="male" name="sex"> Male 
+<input type="radio" value="female" name="sex"> Female <br/>
+<input type="checkbox" name="ffname"> Are You Robot? <br/>
+<input  class="mybutton" type="submit" name="register" value="Apply">
+
+
+</form>
+</div>
+
+</header>
+</body>
+
+</html>

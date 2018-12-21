@@ -1,0 +1,99 @@
+Body{
+	background:url(alumni.jpg);  
+	background-size:120% 810px;
+	margin: 0;
+	 padding: 0;
+	
+}
+ header {
+	background: rgba(0, 0, 50, .5);
+	height: 8vh;
+}
+
+
+.nav {
+	background: rgba(0, 0, 50, .9);
+	height: 80px;
+}
+
+
+.nav {
+	background: rgba(0, 0, 0, .0);
+	height: 65px;
+}
+.logo{
+	margin: 10px 50px;
+	height: 40px;
+}
+.menu {
+	float: right;
+	list-style:none;
+	margin: 20px;
+}
+.menu li {
+	display: inline-block;
+	margin: 10px 5px;
+}
+.menu li a {
+	text-decoration:none;
+	color: #fff;
+	padding: 5px 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	letter-spacing: 2px;
+	border: 1px solid white;
+}
+	
+.menu li a: hover {
+background: coral;
+border : 1px solid coral;	
+transition: .4s;
+}
+#nav{
+	color:white;
+	padding-top:50px;
+	padding-left:50px;
+	font-size:40px;
+	margin:auto;
+	background:black;
+	width:600px;
+	border-radius:30px;
+	opacity:.8;
+}
+#nav input{
+	 margin-top:30px;
+	 width:250px;
+	 height:40px;
+	font-size:25px;
+	border-radius:10px;
+
+}
+
+#nav input[name="email"]{
+	width:900px;
+}
+#nav input[name="sex"]{
+	margin-top:1px;
+	width:20px;
+}
+#nav input[type="checkbox"]{
+	margin-top:5px;
+	width:25px;
+}
+
+#nav input[type="submit"]{
+     margin:5px;
+	 width:250px;
+	border-radius:50px;
+	margin-left:250px;
+	height:50px;
+	background:blue;
+	color:white;
+	font-size:30px;
+}
+#nav input[type="submit"]:hover{
+	 
+	background:red;
+	color:black;
+	
+}
